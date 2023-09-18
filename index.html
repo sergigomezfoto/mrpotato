@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister Potato</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="dropdown-container">
+            <ul class="categories">
+                <li data-category="ulls">Ulls</li>
+                <li data-category="nas">Nas</li>
+                <li data-category="boca">Boca</li>
+            </ul>
+            <div class="thumbnails">
+                <div class="thumbnail-group" data-category="ulls">
+                    <img src="./assets/img/eyes/eyes1.png" data-src="./assets/img/eyes/eyes1.png" alt="Ulls 1">
+                    <img src="./assets/img/eyes/eyes2.png" data-src="./assets/img/eyes/eyes2.png" alt="Ulls 2">
+                    <img src="./assets/img/eyes/eyes3.png" data-src="./assets/img/eyes/eyes3.png" alt="Ulls 3">
+                    <img src="./assets/img/eyes/eyes4.png" data-src="./assets/img/eyes/eyes4.png" alt="Ulls 4">
+                </div>
+
+                <div class="thumbnail-group" data-category="nas">
+                    <img src="./assets/img/noses/nose1.png" data-src="./assets/img/noses/nose1.png" alt="Nas 1">
+                    <img src="./assets/img/noses/nose2.png" data-src="./assets/img/noses/nose2.png" alt="Nas 2">
+                    <img src="./assets/img/noses/nose3.png" data-src="./assets/img/noses/nose3.png" alt="Nas 3">
+                    <img src="./assets/img/noses/nose4.png" data-src="./assets/img/noses/nose4.png" alt="Nas 4">
+                </div>
+
+                <div class="thumbnail-group" data-category="boca">
+                    <img src="./assets/img/mouth/mouth1.png" data-src="./assets/img/mouth/mouth1.png" alt="Boca 1">
+                    <img src="./assets/img/mouth/mouth2.png" data-src="./assets/img/mouth/mouth2.png" alt="Boca 2">
+                    <img src="./assets/img/mouth/mouth3.png" data-src="./assets/img/mouth/mouth3.png" alt="Boca 3">
+                    <img src="./assets/img/mouth/mouth4.png" data-src="./assets/img/mouth/mouth4.png" alt="Boca 4">
+                </div>
+            </div>
+        </div>
+<div>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <button id="deleteElement">X</button>
+</div>
+        <button id="saveImage">Guardar Imatge</button>
+    </div>
+
+    <script src="js/drop.js"></script>
+    <!-- <script src="js/canvas.js"></script> -->
+</body>
+
+</html>
