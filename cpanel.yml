@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/noupunt1/public_html/test/mrpotato
+    - /bin/cp -R images $DEPLOYPATH
